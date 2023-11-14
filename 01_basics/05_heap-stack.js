@@ -70,3 +70,28 @@ let myfunction = function(){
 }
 
 myfunction()     //Hello World
+
+
+//-----------------------------------------------------------------------------------------------
+
+
+// Stack(Primitive) , Heap(Non-primitive)
+// you get copy of that  , original value reference
+
+let myName = "Abhishek";
+let nickName = myName;
+nickName = "Abhi";
+
+console.log(myName);
+console.log(nickName);
+
+
+let user = {
+ email:"abhi123@",
+ phoneNo : 678976547
+}
+
+let user2 = user;
+user.email ="Abhishek@gmail.com";
+console.log(user.email);
+console.log(user2.email);
