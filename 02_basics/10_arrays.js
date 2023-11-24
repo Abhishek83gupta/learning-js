@@ -2,6 +2,24 @@
 //Arrays==> Collection of multiple values
 //it,can be string,number,boolean,etc 
 
+
+/*
+Why Use Arrays?
+If you have a list of items (a list of car names, for example), storing the cars in single variables
+could look like this:
+
+let car1 = "Saab";
+let car2 = "Volvo";
+let car3 = "BMW";
+
+However, what if you want to loop through the cars and find a specific one ? And what if you had not 3 cars,
+but 300 ?
+
+The solution is an array!
+*/
+
+
+
 //........Creating an array ..........
 
 
@@ -21,7 +39,7 @@ let obj = {
     branch : "It"
 }
 
-console.log(Array.isArray(obj));    //False  // Array.isArray is to Strictly check the array or not 
+console.log(Array.isArray(obj));    //False  //  Is to Strictly check the array or not 
 console.log(Array.isArray(Names));  //true
 
 
@@ -54,6 +72,14 @@ console.log(brothers.length);   // 4
 console.log(brothers[brothers.length-2]); // accesing the Second last elements
 console.log(brothers[brothers.length-1]); // accesing the last elements
 
+//..........Looping Array Elements........
+// One way to loop through an array, is using a for loop:
+
+for(let i=0; i < 4;i++)
+{
+    console.log(brothers[i])
+}
+
 
 //...Converting an array to a String ==> toString()
 
@@ -82,17 +108,8 @@ console.log(toppers);
 // Shallow copies ==> passes the reference
 // Whenever changes in anotherArray it will change the value of original array 
 
+
 // Deep copies is opposite of Shallow copies
-
-
-
-
-
-
-
-
-
-
 
 
 
