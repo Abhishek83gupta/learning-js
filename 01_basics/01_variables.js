@@ -1,4 +1,5 @@
-// Variables ===> let,const,var
+// Variables 
+// Variables are declare using => let,var,const keyword
 
 const email_id = 'abhi123@gmail.com';
 
